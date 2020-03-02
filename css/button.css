@@ -1,0 +1,21 @@
+.btn {
+
+    display: inline-block;
+    padding: 10px 20px ;
+    /* width: 100%; */
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #EB1E63;
+    color: wheat;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 2px #5558 ;
+    cursor: pointer;
+    transition: all 0.3s ;
+    float: right;
+}
+.btn:hover {
+    background-color: red;
+    box-shadow: 0 1px 2px 2px #000a;
+
+}
