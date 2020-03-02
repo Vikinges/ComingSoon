@@ -103,16 +103,18 @@
     display: inline-block;
     width: 90%;
     margin: 0 5% 10px;
-
 }
-
-.hero-row > .form >input {
-
-     display: inline-block;
-     width: 100%;
-     border: none;
-     border-bottom: 1px solid #555;
-
+    .hero-row form > input {
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+    .hero-row form > input::placeholder {
+        color: #fff;
+    }
+.hero-row > .mouse {
+    display: inline-block;
 }
 
 /* MAIN CONTENT */
@@ -135,5 +137,6 @@
         color: #EA1E63;
         text-decoration: none;
     }
-
-    
+    .content form > .btn {
+        float: right;
+    }

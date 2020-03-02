@@ -1,44 +1,34 @@
 form {
     display: inline-block;
     width: 100%;
-
 }
-    form >input,
-    form > textarea{
+    form > input,
+    form > textarea {
         display: inline-block;
         width: 100%;
-        padding: 5px 10px;
+        padding: 5px 0;
         float: left;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #555;
         border: none;
         border-bottom: 1px solid #555;
-        resize: none;
-        margin-bottom: 30px;
-        font-size: 17px;
-        line-height: 24px;
-        
     }
-    form > textarea{
-    min-width: 100px;
-    min-height: 20px;
-    resize: vertical;
-    
+    form > textarea {
+        min-height: 100px;
+        max-height: 320px;
+        resize: vertical;
     }
-
     form :focus {
-    outline: none;
-    } 
+        outline: none;
+    }
 
-
-   @media (min-width: 1100px){
-
-   form > input {
-       width: 45%;
-   }
-
-   form > input:nth-of-type(2){
-    width: 45%;   
-   margin-left: 10px;
-
-   }  
-
-   }
+@media (min-width: 1100px) {
+    form > input {
+        width: 45%;
+    }
+    form > input:nth-of-type(2) {
+        margin-left: 10%;
+    }
+}
