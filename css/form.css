@@ -1,0 +1,22 @@
+.form {
+    display: inline-block;
+    /* background-color: #EA1E63; */
+    width: 50px;
+    height: 20px;
+    margin-bottom: 20px;
+    /* border: red solid 20px; */
+
+}
+        .form > input {
+            display: inline-block;
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+
+        .form > button {
+            text-align: center;
+            margin-bottom: 40px;
+           background-color: #EA1E63;
+            
+        }

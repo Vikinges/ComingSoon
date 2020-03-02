@@ -99,10 +99,10 @@
     width: 100%;
     margin: 20px 0;
 }
-.hero-row > .form {
-    display: inline-block;
-    width: 90%;
-    margin: 0 5% 10px;
+    .hero-row > .form {
+        display: inline-block;
+        width: 90%;
+        margin: 0 5% 10px;
 }
 .hero-row > .mouse {
     display: inline-block;
