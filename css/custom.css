@@ -103,9 +103,16 @@
     display: inline-block;
     width: 90%;
     margin: 0 5% 10px;
+
 }
-.hero-row > .mouse {
-    display: inline-block;
+
+.hero-row > .form >input {
+
+     display: inline-block;
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid #555;
+
 }
 
 /* MAIN CONTENT */
@@ -128,3 +135,5 @@
         color: #EA1E63;
         text-decoration: none;
     }
+
+    
