@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/mause.css">
+    <link rel="stylesheet" href="./css/mouse.css">
     <link rel="stylesheet" href="./css/progress-bar.css">
     <link rel="stylesheet" href="./css/custom.css">
 </head>
@@ -38,14 +38,11 @@
                 </div>
             </div>
             <form class="form">
-                   <input type="email"><br>
-                   <button>SUBSCRIBE</button>
-
+                <input name="sub-email" type="email" placeholder="Type your email">
+                <div class="btn">Subscribe now</div>
             </form>
-            
             <div class="mouse">
-                    <div class="wheel">
-                    </div>
+                <div class="wheel"></div>
             </div>
         </div>
     </div>
@@ -91,7 +88,12 @@
             <div class="right">
                 <h2>Have any question?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi alias suscipit laudantium <a href="mailto:website-email@domain.cow">website-email@domain.cow</a> vero vel qui ullam quos distinctio tempora?</p>
-                <form>MESSAGE FORM</form>
+                <form>
+                    <input name="msg-name" type="text" placeholder="Name">
+                    <input name="msg-email" type="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <div class="btn">Send message</div>
+                </form>
             </div>
         </div>
     </div>

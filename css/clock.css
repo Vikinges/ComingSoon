@@ -4,7 +4,6 @@
     text-align: center;
     color: #fff;
 }
-
     .clock > .time {
         display: inline-block;
         width: 25%;
@@ -26,22 +25,6 @@
             text-transform: uppercase;
         }
 
-  .clock > .time .value{
-display: inline-block;
-color: white;
-width: 100%;
-font-size: 40px;
-font-weight: 900;
- 
-  }
-  .clock > .time .lable{
-      display: inline-block;
-      font-size: 20px;
-  } 
-
-  @media (max-width: 700px){
-
-  }
 @media (max-width: 700px) {
     .clock > .time {
         width: 50%;

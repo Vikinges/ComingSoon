@@ -99,11 +99,20 @@
     width: 100%;
     margin: 20px 0;
 }
-    .hero-row > .form {
-        display: inline-block;
-        width: 90%;
-        margin: 0 5% 10px;
+.hero-row > .form {
+    display: inline-block;
+    width: 90%;
+    margin: 0 5% 10px;
 }
+    .hero-row form > input {
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border-bottom-color: #fff;
+    }
+    .hero-row form > input::placeholder {
+        color: #fff;
+    }
 .hero-row > .mouse {
     display: inline-block;
 }
@@ -127,4 +136,7 @@
     .content p > a {
         color: #EA1E63;
         text-decoration: none;
+    }
+    .content form > .btn {
+        float: right;
     }
